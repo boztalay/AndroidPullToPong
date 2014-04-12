@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="?android:attr/colorBackground">
+
+    <com.boztalay.pulltopong.PongGamePieceView
+        android:id="@+id/pong_left_paddle"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <com.boztalay.pulltopong.PongGamePieceView
+        android:id="@+id/pong_right_paddle"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <com.boztalay.pulltopong.PongGamePieceView
+        android:id="@+id/pong_ball"
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
