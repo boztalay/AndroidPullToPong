@@ -27,7 +27,3 @@ android {
         }
     }
 }
-
-dependencies {
-    compile 'com.github.boztalay.pulltopong:library:+'
-}
