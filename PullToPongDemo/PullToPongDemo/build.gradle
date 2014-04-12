@@ -27,3 +27,7 @@ android {
         }
     }
 }
+
+dependencies {
+    compile 'com.github.chrisbanes.actionbarpulltorefresh:library:+'
+}
