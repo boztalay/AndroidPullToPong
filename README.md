@@ -8,13 +8,13 @@ Installation
 
 While I learn more about how to use Gradle to make this more painless, here's the process:
 
-1. Install the [Android-PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh) library, following the instructions in its README
+1. Install the [ActionBar-PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh) library, following the instructions in its README
 2. Include the files under ./PullToPong into their respective directories in your project
 
 Usage
 -----
 
-First, follow the instructions from the [Android-PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh) library to set up the pull behavior how you'd like it.
+First, follow the instructions from the [ActionBar-PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh) library to set up the pull behavior how you'd like it.
 
 Once that's set up, configure your PullToRefreshLayout to use the PongHeaderTransformer and pong_header.xml for its layout:
 
